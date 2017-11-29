@@ -384,11 +384,12 @@ div.socialMedia {margin-left:900px;}
 
 @media ( max-width:680px){
 
-div.body {position:absolute;
-		width:550px;}
-div.socialMedia {margin: 43rem 20rem 20rem 2rem;
+div.body {
+		width:550px;
+		}
+div.socialMedia {margin: 50rem 20rem 20rem 2rem;
 				width:500px;}
-div.socialMedia2 {margin: 57rem 20rem 20rem 2rem;
+div.socialMedia2 {margin: 60rem 20rem 20rem 2rem;
 				width:500px;
 				}				
 hr.footer {margin-top:70rem;
@@ -396,11 +397,21 @@ hr.footer {margin-top:70rem;
 			width:700px;}
 	footer {width:700px;
 			position:relative;}
-header {width:600px;}	
+header {width:600px;
+		margin-bottom: }	
 
 .header2 {width:90%;
-			margin-top:0rem;}	
-.navbar {margin:auto;}				
+			margin-top:0rem;}
+
+ul {display: inline;
+	text-align:center;}				
+li {margin:auto;
+
+	padding-left: 20rem;
+	padding-right: 20rem;
+}
+
+h1.header2 {text-align: center;}			
 }
 
 	
