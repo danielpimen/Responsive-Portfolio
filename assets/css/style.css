@@ -258,7 +258,16 @@ img.portfolioPic {width:200px; height:160px;
 
 div.socialMedia {
 	position:absolute; 
-	margin:25px 20px 0px 850px; 
+	margin:25px 20px 0px 650px; 
+	background-color: white;
+	width:270px;
+	height:180px;
+	float:right;
+}
+
+div.socialMedia2 {
+	position:absolute; 
+	margin:25px 20px 0px 650px; 
 	background-color: white;
 	width:270px;
 	height:180px;
@@ -278,25 +287,140 @@ div.bodyPortfolio{
 
 }
 
-@media only screen and (max-width: 980px) {
+
+
+@media (max-width: 1400px){
+
+div.socialMedia2 {margin-left:900px;}
+div.socialMedia {margin-left:900px;}
+}
+	
+
+
+
+
+
+
+
+
+@media(max-width: 960px) {
     hr.header {
         width:100%;
     }
+
+    div.socialMedia {
+        margin-left:36rem;
+    	position:absolute;
+    	width:33%;
+    	float:right;}
+
+    div.socialMedia2{
+
+        margin-left:36rem;
+    	position:absolute;
+    	width:33%;
+    	float:right;}
+   	
+
+   header{width:850px;} 	
+
+
+    footer {width:900px; }  
+
+    hr.footer {width:920px;}	 
+
+	div.body {width:50%;
+				margin-left:2rem;}
+    
+    div.bodyPortfolio {width:50%;
+    					margin-left:2rem;}
+
+    img.portfolioPic{width:75%; height:75%; 
+					margin-left:10%; ;
+
+												}
+
+	div.portfolio1{ width:40%; height:25%; 
+					margin:auto;}
+	div.portfolio2{ width:40%; height:25%; 
+					margin-left:50%;
+					margin-top:0;}
+	div.portfolio3{ width:40%; height:25%; 
+					margin:50% 0% 0% 0% ;}
+
+	div.portfolio4{ width:40%; height:25%; 
+					margin:50%;}
+
+	div.portfolio5{ width:40%; height:25%; 
+					margin:100% 0% 0% 0%;}
+
+	div.portfolio6{ width:40%; height:25%; 
+					margin:100% 20% 20% 50%;}
+
 }
 
 
-@media only screen and (max-width: 768px) {
-    body {
-        background-color: black;
-    }
+
+
+@media ( max-width: 768px) {
+	div.body {}
+	header {width:700px;}
+	hr.footer {margin-top:70rem;
+			position:;
+			width:700px;}
+	footer {width:700px;
+			position:;}
+
+	div.socialMedia {margin: 43rem 20rem 20rem 2rem;
+				width:500px;}
+	div.socialMedia2 {margin: 58rem 20rem 20rem 2rem;
+				width:500px;}
+	
 }
 
-@media only screen and (max-width: 640px) {
-    body {
-        background-color: lightblue;
 
-    }
-    h1{ color:black; }
+
+
+
+@media ( max-width:680px){
+
+div.body {position:absolute;
+		width:550px;}
+div.socialMedia {margin: 43rem 20rem 20rem 2rem;
+				width:500px;}
+div.socialMedia2 {margin: 57rem 20rem 20rem 2rem;
+				width:500px;
+				}				
+hr.footer {margin-top:70rem;
+			position:relative;
+			width:700px;}
+	footer {width:700px;
+			position:relative;}
+header {width:600px;}	
+
+.header2 {width:90%;
+			margin-top:0rem;}	
+.navbar {margin:auto;}				
 }
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			
 			
